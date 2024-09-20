@@ -1,0 +1,54 @@
+* {
+    background-color: hotpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*::selection {
+    background-color: hotpink;
+    color: pink;
+}
+
+#msg {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: red;
+    animation-name: hot;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+
+#textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.5rem;
+    width: 25rem;
+    height: 25rem;
+    box-sizing: border-box;
+    font-size: 1.7em;
+    color: white;
+    background-color: black;
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+}
+
+@keyframes hot {
+    from {color: rgba(241, 27, 177, 0.479);}
+    to {color:rgb(223, 42, 42);}
+}

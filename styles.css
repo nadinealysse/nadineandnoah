@@ -5,7 +5,9 @@
 }
 
 #date {
+    position: absolute;
     text-align: center;
     font-size: 2.7rem;
     color: white;
+    bottom: 0px;
 }

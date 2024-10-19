@@ -10,4 +10,13 @@
     font-size: 2.7rem;
     color: white;
     bottom: 0px;
+    animation-name: date;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes date {
+    from {left: 0rem;}
+    to {left: 100rem}
 }
